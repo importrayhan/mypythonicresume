@@ -1,5 +1,5 @@
 import streamlit as st
-st.beta_set_page_config(page_title='RAYHAN', page_icon = ':rat:', layout = 'wide', initial_sidebar_state = 'auto')
+st.set_page_config(page_title='RAYHAN', page_icon = ':rat:', layout = 'wide', initial_sidebar_state = 'auto')
 
 class about:
   def write():
